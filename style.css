@@ -1,0 +1,26 @@
+.cuerpo{
+    width: 70%;
+    margin:auto;
+    background-image: url(img/f1.jpeg);
+}
+
+.carousel-inner img {
+    border-radius: 20px;
+    max-height: 700px;
+    max-width: auto;
+
+    animation: carru 20s infinite;
+}
+
+.titulo{
+    font-family:Impact, Haettenschweiler, 'Arial black';
+    color: rgb(23, 147, 230);
+}
+
+@keyframes carru {
+    0% {margin-left:0;}
+    20% {margin-left:0;}
+
+    25%{margin-left:-100%}
+    45%{margin-left:-100%}
+}
